@@ -33,11 +33,8 @@ node tracker.js
 
 # For continuous monitoring, use PM2
 npm install -g pm2
-pm2 start tracker.js --name "lehack-tickets"
+pm2 start main.js
 pm2 save
-
-# To view logs
-pm2 logs lehack-tickets
 ```
 
 ## How It Works
