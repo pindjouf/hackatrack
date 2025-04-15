@@ -28,10 +28,7 @@ WEBHOOK_URL=https://discord.com/api/webhooks/your_webhook_id/your_webhook_token
 ## Usage
 
 ```bash
-# Run the tracker once
-node tracker.js
-
-# For continuous monitoring, use PM2
+# use PM2 on a server
 npm install -g pm2
 pm2 start main.js
 pm2 save
