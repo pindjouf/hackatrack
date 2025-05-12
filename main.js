@@ -78,6 +78,4 @@ function main() {
         });
 }
 
-main();
-
-// const ticket_check_interval = setInterval(main, 1800000);
+const ticket_check_interval = setInterval(main, 1800000);
